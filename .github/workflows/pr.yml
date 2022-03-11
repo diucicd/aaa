@@ -28,5 +28,6 @@ jobs:
         git config --global url."https://${{ secrets.DIUCICD_TOKEN }}:x-oauth-basic@github.com/credential-did".insteadOf "https://github.com/credential-did"
         # test
         GOPRIVATE=github.com/credential-did/verifiable-credential-go-sdk go get -v github.com/credential-did/verifiable-credential-go-sdk
+        date
 
 
